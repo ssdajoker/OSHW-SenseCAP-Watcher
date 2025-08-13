@@ -1,0 +1,16 @@
+name: CI
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "lint placeholder"
+
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "build placeholder"
